@@ -101,7 +101,7 @@ const PurchaseService: React.FC = () => {
       <div className="purchase-item">
         <div className="purchase-details">
           <img
-            src={`${service.image}`}
+            src={`https://gar-back.onrender.com${service.image}`}
             alt={service.name}
             className="service-image"
           />
