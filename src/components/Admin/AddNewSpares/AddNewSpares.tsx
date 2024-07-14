@@ -52,12 +52,16 @@ const AddNewSpares: React.FC = () => {
     }
 
     try {
-      await axios.post("http://localhost:8000/api/admin/service/spares", data, {
-        withCredentials: true, // Include cookies in requests
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
+      await axios.post(
+        "https://gar-back.onrender.com/api/admin/service/spares",
+        data,
+        {
+          withCredentials: true, // Include cookies in requests
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
       console.log("Service upload successful!");
       navigate("/admin/dashboard");
     } catch (error) {
