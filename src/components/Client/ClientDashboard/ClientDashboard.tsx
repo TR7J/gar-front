@@ -138,7 +138,7 @@ const ClientDashboard: React.FC = () => {
               return (
                 <div className="card" key={spare._id}>
                   <img
-                    src={`https://gar-back.onrender.com/${spare.image}`}
+                    src={`https://gar-back.onrender.com${spare.image}`}
                     alt={spare.name}
                   />
                   <div className="card-content">
