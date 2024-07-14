@@ -157,7 +157,7 @@ const ClientDashboard: React.FC = () => {
         </div>
         <div className="down-btns">
           <a
-            href="https://garagechatbot.streamlit.app/"
+            href="https://fixandffreshbot.onrender.com"
             target="_blank"
             rel="noreferrer"
             className="chatbot-btn"
