@@ -5,6 +5,7 @@ import aboutusImage from "../../assets/img/audinew.avif";
 import "./Home.css";
 import getOurServicesImage from "../../assets/img/cars.webp";
 import carWashCar from "../../assets/img/carwash-3.jpeg";
+import carFixCar from "../../assets/img/car-radiators.jpeg";
 import Footer from "../../components/Footer/Footer";
 import Features from "../../components/HomeFeatures/Features";
 import SpecialOffers from "../../components/SpecialOffers/SpecialOffers";
@@ -54,7 +55,7 @@ const Home: React.FC = () => {
       <div
         className="get-our-services"
         style={{
-          backgroundImage: `url(${carWashCar})`,
+          backgroundImage: `url(${carFixCar})`,
         }}
       >
         <div className="get-our-services-blue">GET OUR SERVICES</div>
