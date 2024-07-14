@@ -103,7 +103,10 @@ const ClientDashboard: React.FC = () => {
             .map((service: any) => {
               return (
                 <div className="card" key={service._id}>
-                  <img src={`${service.image}`} alt={service.name} />
+                  <img
+                    src={`https://gar-back.onrender.com/${service.image}`}
+                    alt={service.name}
+                  />
                   <div className="card-content">
                     <div className="category">{service.name}</div>
                     <div className="title">{service.description}</div>
@@ -134,7 +137,10 @@ const ClientDashboard: React.FC = () => {
             .map((spare: any) => {
               return (
                 <div className="card" key={spare._id}>
-                  <img src={`${spare.image}`} alt={spare.name} />
+                  <img
+                    src={`https://gar-back.onrender.com/${spare.image}`}
+                    alt={spare.name}
+                  />
                   <div className="card-content">
                     <div className="category">{spare.name}</div>
                     <div className="title">{spare.description}</div>
