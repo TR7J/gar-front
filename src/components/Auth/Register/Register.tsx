@@ -32,7 +32,7 @@ const Register: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      await API.post("/auth/register", { username, email, password, role });
+      await API.post("/auth/register", { username, email, password });
       console.log("Registration successful!");
       navigate("/login");
     } catch (error) {
